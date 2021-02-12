@@ -1,0 +1,103 @@
+<!--Detta dokument är skrivet av Carl-William Gillberg. Projektet är gjort i samband med Anton Hillung Stolt och Leon Groth Norlin-->
+<!doctype html>
+
+<html lang="sv">
+    <head>
+        <title>Fastigheter AB</title>
+        <link rel="stylesheet" href="graphics/stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+      
+    </head>
+    <body>
+        <header>
+            <h3>
+            <img src="https://i.imgur.com/avPIQxg.png" alt="logga fastigheter AB" class="logo">
+            Fastigheter AB </h3>
+            <nav>
+                <!--Table for navigation bar-->
+                <table>
+                    <tr>
+                        <td class="navButton"><a href="#">Hem</a></td>
+                        <td class="navButton"><a href="products/">Till salu</a></td>
+                        <td class="navButton"><a href="kontakt/">Kontakt</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <div id="div">
+        <div id="main">
+        <main>
+            <article>
+                <section>
+                    <h3>Var finns vi?</h3>
+                    <!--kod hämtad från https://authoritynw.com/blog/how-to-add-a-google-map-to-your-website/ -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.9530874939865!2d138.69854131569306!3d36.070248316144955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDA0JzEyLjkiTiAxMzjCsDQyJzAyLjYiRQ!5e0!3m2!1ssv!2sse!4v1611331436003!5m2!1ssv!2sse" width="980" height="450"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </section>
+
+                <!--Sorteringsbar-->
+                <section class="sort">
+                      Sortera efter: <input type="radio" id="sort1" name="sort1" value="Pris">  <label for="sort1">Pris</label>  <input type="radio" id="sort2" name="sort2" value="Pris"> <label for="sort2">Popularitet</label>
+                </section>
+
+                <!--Objekt till salu-->
+
+                <section class ="object">
+                    <h3><a href="products/">Objekt 1</a></h3>
+                    <a href="products/" class="aimage">
+                    <img alt="hus" src="https://images.pexels.com/photos/2031687/pexels-photo-2031687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="object-image"></a>
+                    <p>Fint hus :)</p>
+                    <button onclick="window.location.href='https://goo.gl/maps/Wy7FUndr1dAhyzXaA';">
+                        Se på karta
+                      </button>
+                    <br>
+                    <br>
+                </section>
+                <!--Aside 1-->
+
+                <aside class="cwaside">
+                    <a href="https://www.kau.se/">
+                    <img class = "ad" alt="ad" src="https://i.imgur.com/l0QzJyG.png">
+                    </a>
+                 </aside>
+
+                <section class="object">
+                    <h3><a href="products/">Objekt 2</a></h3>
+                    <a href="products/" class="aimage">
+                    <img alt="aa" src="https://images.pexels.com/photos/707680/pexels-photo-707680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="object-image"></a>
+                    <p>Fint traditionellt Japanskt hus på landsbygden bygd enligt traditionellt Japansk husbygge. Fin omgivning</p>
+                    <button onclick="window.location.href='https://goo.gl/maps/E4P5BKiL95Fmdkfq8';">
+                        Se på karta
+                      </button>
+                    <br>
+                    <br>
+                </section>
+
+                <!--Aside 2-->
+                <aside class="cwaside">
+                    <a href="https://www.kau.se/">
+                    <img class ="ad" alt="ad" src="https://i.imgur.com/8LMhi7D.png">
+                    </a>
+                </aside>
+
+                <section class="object">
+                    <h3><a href="products/">Objekt 3</a></h3>
+                    <a href="products/" target="_blank" class="aimage">
+
+                    <img alt="hus" src="https://images.pexels.com/photos/5746227/pexels-photo-5746227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="object-image"></a>
+                    <p>Fin traditionell Japansk hyresrätt i storstad, mycket prisvärt och rymligt. Bra för familjer och ensamstående</p>
+                    <button onclick="window.location.href='https://goo.gl/maps/Y1cnttN5iGXrmfHr7';">
+                        Se på karta
+                      </button>
+                    <br>
+                    <br>    
+                </section>
+            </article>
+        </main>
+        <footer>
+            Copyright Fastigheter AB &#169;
+        </footer>
+        </div>
+        </div>
+    </body>
+</html>
