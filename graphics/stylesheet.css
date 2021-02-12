@@ -1,4 +1,6 @@
 /*CSS-koden är skriven av Carl-William Gillberg, Anton Hillung Stolt och Leon Groth Norlin*/
+
+/*Kod för alla huvudsakliga sektioner i html dokumentet*/
 body {
     margin: 0px;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
@@ -39,19 +41,25 @@ aside {
     float: right;
 }
 
+/*CSS för tabeller som används för menyer*/
 table {
     text-align: center;
 }
 
+
+/*css för bilder*/
 img {
     width: 450px;
     height: 450px;
 }
 
+/*css för tabell element*/
 th, td {
     text-align: center;
     color: black;
 }
+
+/*css för headline 3*/
 
 h3 a {
     color: black;
@@ -68,6 +76,7 @@ h3 a:hover {
     text-decoration: none;
 }
 
+/*css för vissa länkar på kontakt.html och i navigationsbaren*/
 .navLink {
     color: black;
     text-decoration: dotted underline;
@@ -98,6 +107,7 @@ h3 a:hover {
 
 }
 
+/*css för länkar i tabell, främst navbaren*/
 td a {
     color: black;
     text-decoration: none;
@@ -117,6 +127,7 @@ td a:hover {
     background-color: black;
 }
 
+/*kod för footer*/
 footer {
     clear: both;
     height: 15px;
@@ -125,6 +136,7 @@ footer {
     margin-right: auto;
 }
 
+/*kod för sorteringsgrejen*/
 .sort {
 
     float: none;
@@ -135,6 +147,7 @@ footer {
 
 }
 
+/*kod för objekt*/
 .object {
     border: 2px solid black;
     width: 60%;
@@ -151,6 +164,7 @@ footer {
     float: left;
 }
 
+/*kod för alla teammedlemmar på kontaktsidan*/
 .memberBox {
     display: flex;
     justify-content: space-between;
@@ -185,6 +199,7 @@ footer {
     width: auto;
 }
 
+/*kod för prouktsidan*/
 .overheadImg {
     width: 80%;
     height: 320px;
